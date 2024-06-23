@@ -32,7 +32,7 @@ ORM 을 이용하면 개발자가 쿼리를 직접 작성하지 않아도 데이
 ``<br>
  ``db.add(question1, question2, question3)
 ``<br>
-<<<<<<< HEAD
+
 =======
 ## 질문 목록을 위한 API 만들기
 #### 파일 구조
