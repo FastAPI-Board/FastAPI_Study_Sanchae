@@ -16,20 +16,20 @@ ORM 을 이용하면 개발자가 쿼리를 직접 작성하지 않아도 데이
 | 3  | 안녕하세요   | 잠이 와요... 커어어 |
 >표에서 ID는 각 데이터를 구분하는 고윳값
 
- **SQL 로 데이터 삽입을 작성**<br>
-``insert into question (subject, content) values ('안녕하세요', '야식이 먹고 싶습니다');``
+ **SQL 로 데이터 삽입을 작성**
+>``insert into question (subject, content) values ('안녕하세요', '야식이 먹고 싶습니다');``
  ``insert into question (subject, content) values ('질문 있습니다', '참아야 하는것인가');
-``<br>
+``
  ``insert into question (subject, content) values ('안녕하세요', '잠이 와요.. 커어어');
-``<br>
+``
  
-**ORM을 이용한 데이터 삽입 작성** <br>
+**ORM을 이용한 데이터 삽입 작성** 
 
-``question1 = Question(subject='안녕하세요',content='야식이 먹고 싶습니다')``<br>
+>``question1 = Question(subject='안녕하세요',content='야식이 먹고 싶습니다')``
  ``question2 = Question(subject='질문 있습니다',content='참아야 하는것인가');
-``<br>
+``
  ``question3 = Question(subject='안녕하세요',content='잠이 와요.. 커어어');
-``<br>
+``
  ``db.add(question1, question2, question3)
-``<br>
+``
 
