@@ -4,6 +4,6 @@ FastAPI 스터디를 위한 레포 <br>
 ***To go CheckList***
 - [X] FastAPI 환경 세팅
 - [X] FastAPI Base
-- [ ] PyBo Service 1
-- [ ] PyBo Service 2 <br><br>
+- [X] PyBo Service 1
+- [X] PyBo Service 2 <br><br>
 
